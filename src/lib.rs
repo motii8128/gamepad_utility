@@ -84,7 +84,7 @@ impl GamePadsDriver {
             ControllerData::new()
         }
         else {
-            self.data[id]
+            self.data[id-1]
         }   
     }
 }
