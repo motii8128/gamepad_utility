@@ -5,6 +5,10 @@
 |Rust|[![Rust](https://github.com/motii8128/gamepad_utility/actions/workflows/rust.yml/badge.svg)](https://github.com/motii8128/gamepad_utility/actions/workflows/rust.yml)|
 
 # 使用方法
+おそらく元から入っているはずですが、もし動かない場合がある場合は入れて欲しいやつ
+```
+sudo apt install libudev-dev
+```
 まずCargo.tomlの`dependencies`の下に以下のように追加してください。
 ```toml
 [dependencies]
