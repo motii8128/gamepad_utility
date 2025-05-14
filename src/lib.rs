@@ -79,7 +79,7 @@ impl GamePadsDriver {
     /// * `存在しない`台数目を指定された場合は空の構造体を返す
     pub fn get(&self, id : usize)->ControllerData
     {
-        if id > self.controller_num()
+        if id > self.controller_num() || id == 0
         {
             ControllerData::new()
         }
