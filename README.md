@@ -60,7 +60,8 @@ fn main() {
         if driver.controller_num() == 1
         {
             let controller1 = driver.get(1);
-            
+
+            // 丸ボタンの値を取得。ボタンは押されていたら「１」、押されていなかったら「０」
             println!("1 controller is connected. Circle Button: {}", controller1.btns.circle);
         }
         else if driver.controller_num() == 2
