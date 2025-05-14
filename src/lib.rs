@@ -67,10 +67,10 @@ impl GamePadsDriver {
     {
         if self.controller_num() == 0
         {
-            true
+            false
         }
         else {
-            false
+            true
         }
     }
 
